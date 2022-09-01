@@ -1,0 +1,72 @@
+<html>
+  <head>
+
+  </head>
+  <body onkeydown="A(event)">
+    <script>
+      function A(event){
+        var A=document.getElementById("B")
+        if (event.keyCode==65){
+          A.style.left = A.offsetLeft-50+"px"
+        }
+        if (event.keyCode==68){
+          A.style.left = A.offsetLeft+50+"px"
+        }
+
+
+
+
+        }
+     
+function get(){
+  alert("It started!")
+} 
+function get2(){
+  document.write("<h3>"+"get:"+" alert('It started!')"
+    +
+    "<br>"+"get2:"+" |this|"
+    +
+    "<br>"+"A:"
+    )
+  }
+    </script>
+    <style>
+      #B{position:absolute}
+    </style>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center><span style="font-size: 70px"><span onClick="get2()">GigGid</span>'s first move sprite!!!
+    <br>
+    </span>
+    <br>
+    <span style="font-size:40px">Click "Try" button,then try down "A" "D"key!!</span>
+<br>
+<br>
+<button style="background:black" onClick="get()">
+  <h3><font a color="white">Try</font></h3>
+</button>
+</center>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div id="B"><img src="picture/you.png"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  <svg width="1250" height="300">
+<rect fill="black" width="1250" height="300">
+  </svg>
+  </body>
+</html>
